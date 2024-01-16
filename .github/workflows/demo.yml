@@ -42,8 +42,7 @@ jobs:
         uses: actions/download-artifact@v4
         with:
            name: dist-files
-           path: dist
       - name: Listing directory
-        run: ls dist/
+        run: ls
       - name: Deploy
         run: echo "Deploying..."
